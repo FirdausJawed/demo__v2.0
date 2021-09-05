@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Special+Elite');
 
-
-h1:before{
-  background: linear-gradient(to right, #f00,#ff0,#0ff,#0f0,#ffc800);
+.typewriter h1:before{
+  background: linear-gradient(to left, #0abfbc,#fc354c);
+  background-clip:text ;
   -webkit-background-clip: text;
-  color:transparent;
-  content: attr(typewriter);
-  position: absolute;
+  -webkit-text-fill-color: transparent;
+  white-space: nowrap;
+  content: attr(data-text);
+  overflow: hidden;
 }
+
 
 
 /* styling */
@@ -34,7 +36,7 @@ h1:before{
 
 .typewriter h1 {
   display: inline-block;
-  color: #fff;
+  color: wheat;
   font-family: monospace;
   overflow: hidden; 
   border-right: .15em solid #699BFF; 
@@ -44,6 +46,11 @@ h1:before{
   animation: 
     typing 3.5s steps(30,end),
     blink-caret 2s step-end infinite;
+
+
+  text-transform: uppercase;  
+  text-shadow: 0 10px 8px rgba(0, 0, 0, 0.5);
+  font-weight: 900;
 }
 
 @keyframes typing {
@@ -136,7 +143,7 @@ body{
     justify-content: center;
     align-items: center;
     background: radial-gradient(ellipse at bottom, #0D1E31, #111);
-    /* overflow: hidden; */
+   
     margin: 0;
     overflow-x: hidden;
     text-align: center;
@@ -145,11 +152,8 @@ body{
     background: radial-gradient(ellipse at bottom, #0D1E31, #111);
     justify-content: center;
     height: 500vh;
-    /* display: flex; */
-    /* justify-content: center; */
     align-items: center;
     background: radial-gradient(ellipse at bottom, #0D1E31, #111);
-    /* overflow: hidden; */
     margin: 0;
   }
   

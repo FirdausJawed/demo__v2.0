@@ -12,8 +12,7 @@
 }
 
 /* styling */
- 
-.clear{clear:both}
+
    .heading{
     text-align: center;
     color: wheat;
@@ -148,6 +147,9 @@ body{
     margin: 0;
     overflow-x: hidden;
     text-align: center;
+	
+	
+	 background-repeat: no-repeat;
   }
   .night{
     background: radial-gradient(ellipse at bottom, #0D1E31, #111);

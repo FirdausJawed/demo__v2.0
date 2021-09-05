@@ -46,7 +46,7 @@
   letter-spacing: .15em; 
   animation: 
     typing .5s steps(30,end),
-    blink-caret 2s step-end infinite;
+    blink-caret .5s step-end infinite;
 
 
   text-transform: uppercase;  
@@ -298,7 +298,3 @@ body{
   .star:nth-child(5)::before, .star:nth-child(5)::after{
     animation-delay: 1.8s;
   }
-
-                           
-
- 

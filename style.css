@@ -13,6 +13,7 @@
 
 /* styling */
  
+.clear{clear:both}
    .heading{
     text-align: center;
     color: wheat;

@@ -45,7 +45,7 @@
   margin: 0 auto; 
   letter-spacing: .15em; 
   animation: 
-    typing 3.5s steps(30,end),
+    typing .5s steps(30,end),
     blink-caret 2s step-end infinite;
 
 

@@ -28,6 +28,7 @@
    margin-left: 20%;
    margin-right: 20%;
    margin-top: 2.5%;
+   margin-bottom: 3.5rem;
    text-align: center;
 }
 
@@ -120,9 +121,12 @@ cite {
 
   .feature-box{
     text-align: center;
-   
   }
 
+  .box{
+    margin-left: 20%;
+    margin-right: 20%;
+  }
   h3{
     font-family: "Poppins";
     font-size:1.5rem;
@@ -143,7 +147,6 @@ body{
     justify-content: center;
     align-items: center;
     background: radial-gradient(ellipse at bottom, #0D1E31, #111);
-   
     margin: 0;
     overflow-x: hidden;
     text-align: center;

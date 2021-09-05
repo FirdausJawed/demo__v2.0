@@ -11,8 +11,6 @@
   overflow: hidden;
 }
 
-
-
 /* styling */
  
    .heading{
@@ -32,7 +30,6 @@
    text-align: center;
 }
 
-
 /* The typewriter effect */
 
 .typewriter h1 {
@@ -45,8 +42,8 @@
   margin: 0 auto; 
   letter-spacing: .15em; 
   animation: 
-    typing .5s steps(30,end),
-    blink-caret .5s step-end infinite;
+    typing 3.5s steps(30,end),
+    blink-caret 2s step-end infinite;
 
 
   text-transform: uppercase;  

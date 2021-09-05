@@ -107,7 +107,7 @@ blockquote:before {
 
 blockquote:after {
 	content: '”';
-	right: -1rem;
+	right: -5rem;
 	bottom: 1rem;
 }
 

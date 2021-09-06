@@ -147,18 +147,15 @@ body{
     margin: 0;
     overflow-x: hidden;
     text-align: center;
-	
-	
-	 background-repeat: no-repeat;
   }
-/*   .night{
+  .night{
     background: radial-gradient(ellipse at bottom, #0D1E31, #111);
     justify-content: center;
     height: 500vh;
     align-items: center;
     background: radial-gradient(ellipse at bottom, #0D1E31, #111);
     margin: 0;
-  } */
+  }
   
   .night2{
     position: absolute;/* position: relative; */

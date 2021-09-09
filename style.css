@@ -139,7 +139,7 @@ cite {
 /* animateed background */
 
 body{
-    height: 500vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -151,7 +151,7 @@ body{
   .night{
     background: radial-gradient(ellipse at bottom, #0D1E31, #111);
     justify-content: center;
-    height: 500vh;
+    height: auto;
     align-items: center;
     background: radial-gradient(ellipse at bottom, #0D1E31, #111);
     margin: 0;
